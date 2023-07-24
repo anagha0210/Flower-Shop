@@ -1,0 +1,73 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../Css/buy.css">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Water+Brush&display=swap" rel="stylesheet"> <!-- for the fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> <!-- for the search and other icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="description" content="Quiz">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Flower Shop</title>
+	<script src="../Js/buy.js"></script>
+</head>
+<body class="body">
+<div>
+	<div id="head">
+		<h1><a id="home" class="sy" href="flower.html">Home</a></h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<form id="searchbar">
+			<button class="sbb" type="submit"><i class="material-icons" align="center">search</i></button>
+		<input type="text" placeholder="What are you looking for?" id="sb">
+		</form>
+		<h4><a class="sy" href="#">Sign Up</a></h4>
+		<h4><a class="sy" href="login.html">Log In</a></h4>
+		<h4><a class="sy" id="cart" href="#"><button id="cart" type="submit">Cart</button></a>&nbsp;&nbsp;<p class="fa fa-shopping-cart vent"></p></h4>
+</div>
+<div id="buy">
+	<div id="log">
+		<p class="el">All</p><p class="el">Popular</p><p class="el">Limited</p><p class="el">Seasonal</p><p class="el">Exotic</p><p id="e2">Filter</p><i class="fa fa-filter color" style="font-size:24px"></i>
+	</div>
+<h1 class="bs" align="center">Best Sellers</h1>
+<div id="show">
+	<div><img id="item1" class="ig" src="https://cloudinary-a.akamaihd.net/ufn/image/upload/ejtkuabdkvozay5wksm9.webp" width="200" height="200"/><pre class="fp" align="center"><b>Epic Bloomers
+ $30</b>
+<button class="button" type="submit" onclick="add(item1)" value="Add to cart">Add to Cart</button></pre></div>
+	<div><img id="item2" class="ig" src="http://cdn.shopify.com/s/files/1/0273/8506/9656/products/2_7f1b18e4-1ab6-448c-a11a-7bd090de887d_1200x1200.jpg?v=1632030673" width="200" ehight="200"/><pre class="fp" align="center"><b>Spring Sophistication
+ $40</b>
+<button class="button" value="Add to cart" onclick="add(item2)">Add to Cart</button></pre></div>
+	<div><img class="ig" id="item3" src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1608584544-pink-flowers-bouquet-ode-a-la-rose-1608584448.jpg" width="200" height="200"/><pre class="fp" align="center"><b>Softness
+ $25</b>
+<button class="button" onclick="add(item3)">Add to Cart</button></pre></div>
+	<div><img class="ig" id="item4" src="https://www.kremp.com/media/catalog/product/cache/ca04ac308cde8c5994a61e81b33ab25e/G/r/Grand-Occasion-Bouquet-by-Vera-Wang-std.jpg" width="200" height="200"/><pre class="fp" align="center"><b>Grand Occasion Bouquet
+ $10</b>
+<button class="button" onclick="add(item4)">Add to Cart</button></pre></div>
+	<div><img class="ig" id="item5" src="https://i.etsystatic.com/10294919/r/il/622718/3046939609/il_570xN.3046939609_68a5.jpg" width="200" height="200"/><pre class="fp" align="center"><b>Flower Pot
+ $10</b>
+<button class="button" onclick="add(item5)" value="Add to cart">Add to Cart</button></pre></div>
+	<div><img class="ig" id="item6" src="https://i.pinimg.com/736x/6f/c9/2e/6fc92e8a4c9312f0eb386d35f0c6baf5.jpg" width="200" height="200"/><pre class="fp" align="center"><b>Chantilla Pink and white
+ $20</b>
+<button class="button" onclick="add(item6)" value="Add to cart">Add to Cart</button></pre></div>
+	<div><img class="ig" id="item7" src="http://cdn.shopify.com/s/files/1/0600/8581/collections/HOLSPRING-2262-214772.jpg?v=1636843371" width="200" height="200"/><pre class="fp" align="center"><b>Little bit if love
+ $15</b>
+<button class="button" onclick="add(item7)" value="Add to cart">Add to Cart</button></pre></div>
+	<div><img class="ig" id="item8" src="https://cdn02.pinkoi.com/product/q97ZLuMw/0/6/640x530.jpg" width="200" height="200"/><pre class="fp" align="center"><b>Love Always Arrangement
+ $20</b>
+ <button class="button" onclick="add(item8)" value="Add to cart">Add to Cart</button></pre></div>
+	<div><img class="ig" id="item9" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6AcWQD5yH_ENtf-UIQN-jlgbrtN6eIjM2STJKmLZmBVXekFmcdMRFhmiRDcWkjmAqXjY&usqp=CAU" width="200" height="200"/><pre class="fp" align="center"><b>Bloomsvilla
+ $10</b>
+<button class="button" onclick="add(item9)" value="Add to cart">Add to Cart</button></pre></div>
+	<div><img class="ig" id="item10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFPICTx2qoxR5_kRBe90_mc3IPBj2-RZKiZUxNsueXQuZQ2sU0kA10gZElULs9EtuGYxw&usqp=CAU" width="200" height="200"/><pre class="fp" align="center"><b>Snow White
+ $35</b>
+<button class="button" value="Add to cart" onclick="add(item10)">Add to Cart</button></pre></div>
+
+</div>
+</div>
+<div id="footer">
+	<p>Customer Care</p><p> Contact Us</p>
+	<p class="cp">Copyright &copy; 2022 Florana.All Rights Reserved</p><a href="#" class="ls">Legal Stuff</a><a href="#" class="pp">Privacy Policy</a>
+</div>
+</body>
+</html>
